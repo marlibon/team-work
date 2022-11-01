@@ -3,11 +3,11 @@
 [Посмотреть проект](https://marlibon.github.io/team-work/)
 
 ## Участники
-[Марат Загриев](https://github.com/marlibon)
+[Марат Загриев](https://github.com/marlibon), 
 [Ирина Дёмина](https://github.com/ir-mars)
 
 ## Посмотреть проект можно по ссылке:
-[marlibon.github.io/russian-travel/](https://marlibon.github.io/russian-travel/)
+[marlibon.github.io/team-work](https://marlibon.github.io/team-work/)
 
 ## Технологии:
 1. Flexbox.
