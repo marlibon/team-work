@@ -1,3 +1,35 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/roboto.css');
 
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link-abuse/header__link-abuse.css');
+
+@import url('../blocks/main/main.css');
+
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__subtitle/intro__subtitle.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__img/intro__img.css');
+
+@import url('../blocks/places/places.css');
+
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__title/place__title.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__paragraphs/place__paragraphs.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
+
+@import url('../blocks/quotes/quotes.css');
+@import url('../blocks/quotes/__subtitle/quotes__subtitle.css');
+@import url('../blocks/quotes/__title/quotes__title.css');
+
+@import url('../blocks/quote/quote.css');
+@import url('../blocks/quote/__author/quote__author.css');
+@import url('../blocks/quote/__text/quote__text.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
