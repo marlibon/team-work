@@ -1,3 +1,4 @@
 .place__paragraphs {
-        
+     display: flex;
+     flex-direction: column;   
 }
