@@ -1,0 +1,10 @@
+.intro {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    min-height: 486px;
+    margin: 0;
+}
