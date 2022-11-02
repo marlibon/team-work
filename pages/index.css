@@ -2,6 +2,7 @@
 @import url('../vendor/fonts/roboto.css');
 
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__content/page__content.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__links/header__links.css');

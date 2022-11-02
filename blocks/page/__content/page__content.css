@@ -1,0 +1,6 @@
+.page__content {
+  width: calc(100% - 2*67px);
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #000;
+
+}
