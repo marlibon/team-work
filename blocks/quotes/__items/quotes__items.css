@@ -1,0 +1,8 @@
+.quotes__items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  column-gap: 55px;
+}
