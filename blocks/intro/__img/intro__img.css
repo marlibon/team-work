@@ -1,0 +1,8 @@
+.intro__img {
+    max-width: 360px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    position: absolute;
+    right: 156px;
+    top: 0;
+}
