@@ -1,8 +1,18 @@
 .quotes__items {
   margin: 0;
   padding: 0;
-  display: flex;
+  justify-self: center;
+  display: grid;
   list-style-type: none;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(4, minmax(188px, 1fr));
   column-gap: 55px;
+  row-gap: 80px;
 }
+
+@media screen and (max-width: 1058px) {
+  .quotes__items {
+    grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+    row-gap: 40px;
+  }
+}
+
