@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./roboto-regular.woff2") format("woff2"),
-       url("./roboto-regular.woff") format("woff");
+  src: url("./Raleway-Regular.woff2") format("woff2"),
+       url("./Raleway-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-style:  normal;
   font-weight: 700;
   font-display: swap;
-  src: url("./roboto-bold.woff2") format("woff2"),
-       url("./roboto-bold.woff") format("woff");
+  src: url("./Raleway-Bold.woff2") format("woff2"),
+       url("./Raleway-Bold.woff") format("woff");
 }
 
