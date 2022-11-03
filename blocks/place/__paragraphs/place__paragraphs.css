@@ -1,6 +1,11 @@
 .place__paragraphs {
      display: flex;
      flex-direction: column;
-     grid-area: paragraphs;   
+     grid-area: place__paragraphs;
+     max-width: 425px;
+     align-self: end;
+     margin-bottom: 40px;
+     justify-self: start;
+     min-height: 170px;
 }
 

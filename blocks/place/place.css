@@ -1,15 +1,17 @@
 .place {
-    font-family: 'Roboto', Arial, sans-serif;
     display: grid;
     /*grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);*/
     grid-template-areas:
-        'image paragraphs';
+        'place__image place__title'
+        'place__image place__paragraphs';
     max-width: 100%;
     grid-template-columns: repeat(2, minmax(320px, 1fr));
-    margin: 0;        
+    grid-template-rows: repeat(2, 50%);
+    margin: 0;
 }
 
 .place:nth-of-type(2n) {
     grid-template-areas:
-        'paragraphs image';
+        'place__title place__image'
+        'place__paragraphs place__image';
 }
