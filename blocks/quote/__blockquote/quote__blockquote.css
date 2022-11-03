@@ -1,4 +1,6 @@
 .quote__blockquote {
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
