@@ -7,6 +7,8 @@
     max-width: 140px;
     padding: 0;
     margin: 0 0 28px 4px;
+    letter-spacing: 0.7px;
+
 }
 @media screen and (max-width: 870px) {
   .intro__subtitle {
