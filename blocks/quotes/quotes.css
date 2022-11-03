@@ -1,5 +1,5 @@
 .quotes {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: grid;
+  grid-auto-columns: auto;
+  grid-template-rows: auto;
 }

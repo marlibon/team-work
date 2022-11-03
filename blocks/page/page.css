@@ -6,4 +6,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #000;
+    box-sizing: border-box;
 }

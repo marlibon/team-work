@@ -1,0 +1,10 @@
+.quotes__title {
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 420px) {
+  .quotes__title {
+
+  }
+}
+
