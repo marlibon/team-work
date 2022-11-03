@@ -1,5 +1,18 @@
-.place_paragraph {
+.place__paragraph {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 13px;
+    line-height: 1.58;
+    margin: 0;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    max-width: 360px;
+    letter-spacing: 0.2;
 }
+
+/*.place__paragraph:nth-of-type(2n) {
+
+}
+
+.place__paragraph:nth-of-type(3n) {
+    
+}*/

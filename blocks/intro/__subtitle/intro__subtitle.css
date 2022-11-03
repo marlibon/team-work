@@ -1,9 +1,11 @@
 .intro__subtitle {
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 16px;
+    letter-spacing: 5;
     color: #fecda7;
-    max-width: 108px;
+    text-transform: uppercase;
+    max-width: 140px;
     position: absolute;
     margin: 0;
     margin-bottom: 28px;

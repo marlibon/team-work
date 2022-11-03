@@ -1,5 +1,7 @@
 .place__image {
     object-fit: cover;
-    width: 640px;
-    height: 530px;    
+    width: 100%;
+    /*height: 535px;*/
+    aspect-ratio: 6/5;
+    grid-area: image;    
 }
