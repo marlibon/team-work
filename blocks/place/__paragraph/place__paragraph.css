@@ -3,6 +3,7 @@
     font-size: 13px;
     line-height: 1.58;
     margin: 0;
+    padding: 0;
     margin-left: 70px;
     margin-bottom: 20px;
     max-width: 360px;
@@ -14,5 +15,5 @@
 }
 
 .place__paragraph:nth-of-type(3n) {
-    
+
 }*/
