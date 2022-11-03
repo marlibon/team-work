@@ -2,13 +2,22 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 5;
     color: #fecda7;
     text-transform: uppercase;
     max-width: 140px;
-    position: absolute;
-    margin: 0;
-    margin-bottom: 28px;
-    left: 72px;
-    top: 111px;
+    padding: 0;
+    margin: 0 0 28px 4px;
+}
+@media screen and (max-width: 870px) {
+  .intro__subtitle {
+    font-size: 11px;
+    line-height: 14px;
+    margin: 10px 0 10px 4px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .intro__subtitle {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
