@@ -27,10 +27,12 @@
 @import url('../blocks/quotes/quotes.css');
 @import url('../blocks/quotes/__subtitle/quotes__subtitle.css');
 @import url('../blocks/quotes/__title/quotes__title.css');
+@import url('../blocks/quotes/__items/quotes__items.css');
 
 @import url('../blocks/quote/quote.css');
 @import url('../blocks/quote/__author/quote__author.css');
 @import url('../blocks/quote/__text/quote__text.css');
+@import url('../blocks/quote/__blockquote/quote__blockquote.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
