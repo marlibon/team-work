@@ -1,19 +1,19 @@
 .page__content {
-  padding: 0 67px 0 67px;
+  width: calc(100% - 2*67px);
 }
 @media screen and (max-width: 1100px) {
   .page__content {
-    padding: 0 48px 0 48px;
+    width: calc(100% - 2*48px);
   }
 }
 
 @media screen and (max-width: 790px) {
   .page__content {
-    padding: 0 24px 0 24px;
+    width: calc(100% - 2*24px);
   }
 }
 @media screen and (max-width: 410px) {
   .page__content {
-    padding: 0 10px 0 10px;
+    width: calc(100% - 2*10px);
   }
 }
