@@ -2,4 +2,6 @@
   display: grid;
   grid-auto-columns: auto;
   grid-template-rows: auto;
+  padding-top: 135px;
+  padding-bottom: 125px;
 }
