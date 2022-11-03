@@ -5,3 +5,9 @@
   padding-top: 135px;
   padding-bottom: 125px;
 }
+@media screen and (max-width: 1050px) {
+  .quotes {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+}
