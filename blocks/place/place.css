@@ -14,3 +14,16 @@
         'place__title place__image'
         'place__paragraphs place__image';
 }
+
+@media screen and (max-width: 840px) {
+  .place, .place:nth-of-type(2n) {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  max-width: 100%;
+  grid-template-areas:
+  'place__title'
+  'place__paragraphs'
+  'place__image';
+  margin: 0 0 50px 0;
+  }
+}

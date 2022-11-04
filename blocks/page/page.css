@@ -6,7 +6,14 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
     color: #000;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* сглаживание шрифта для браузеров chromium */
+    -moz-osx-font-smoothing: grayscale; /* сглаживание шрифта для браузеров mozilla */
+    -webkit-text-size-adjust: 100%; /* Подгонка размера текста */
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility; /* рендеринг шрифтов */
+
 }
