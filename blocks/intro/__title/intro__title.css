@@ -12,8 +12,14 @@
   .intro__title {
     font-size: 28px;
     line-height: 32px;
-    max-width: 95%;
     padding: 0 0 5% 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .intro__title {
+    /*width: 100%;*/
+    text-align: center;
   }
 }
 
@@ -21,5 +27,6 @@
   .intro__title {
     font-size: 22px;
     line-height: 24px;
+    text-align: left;
   }
 }
