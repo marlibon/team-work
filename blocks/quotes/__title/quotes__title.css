@@ -19,5 +19,6 @@
   .quotes__title {
     font-size: 22px;
     line-height: 24px;
+    padding: 15px 0 45px 0;
   }
 }

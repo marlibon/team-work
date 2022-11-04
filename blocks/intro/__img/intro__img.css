@@ -4,7 +4,7 @@
     object-fit: cover;
     justify-self: center;
     align-self: center;
-    animation: animation-name 6s ease infinite;
+    animation: animation-intro-img 5s linear infinite;
 }
 
 @media screen and (max-width: 870px) {
@@ -19,7 +19,7 @@
   }
 }
 
-@keyframes animation-name {
+@keyframes animation-intro-img {
   0% {
     filter: none;  }
   50% {
