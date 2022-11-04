@@ -3,4 +3,11 @@
     width: 100%;
     aspect-ratio: 6/5;
     grid-area: place__image;
+    filter: none;
+    transition: filter .4s ease-in-out;
+
+}
+.place__image:hover {
+  transition: filter .4s ease-in-out;
+  filter: brightness(120%);
 }
