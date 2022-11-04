@@ -1,6 +1,5 @@
 .place {
     display: grid;
-    /*grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);*/
     grid-template-areas:
         'place__image place__title'
         'place__image place__paragraphs';
