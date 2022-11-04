@@ -7,7 +7,7 @@
   <meta name="keywords" content="путешествия, отпуск, море, лес, горы">
   <meta name="description"
     content="Данная страничка сверстана студентами Я.Практикума М.Загриевым и И.Деминой в рамках соревнования. В работе использованы технологии адаптивной верстки, Grid, Flex, Git и др.">
-  <meta name="author" content="Марат Загриев и Ирина Дёмина">
+  <meta name="author" content="Марат Загриев, Ирина Дёмина">
   <meta name="robots" content="index,follow">
   <title>Куда я поеду сразу, как можно будет куда-то поехать</title>
   <link rel="stylesheet" href="./pages/index.css">
@@ -15,14 +15,16 @@
 </head>
 <body class="page">
    <header class="header page__content">
-    <nav>
+    <input type="checkbox" id="header__burger">
+    <label for="header__burger"></label>
+    <nav class="header__nav">
       <ul class="header__links">
         <li><a href="" class="header__link">Мечты</a></li>
         <li><a href="" class="header__link">Ожидания</a></li>
         <li><a href="" class="header__link">Реальность</a></li>
       </ul>
+      <a href="" class="header__link header__link_complain">Пожаловаться</a>
     </nav>
-    <a href="" class="header__link header__link_complain">Пожаловаться</a>
   </header>
   <main class="main">
    <section class="intro main__content">
