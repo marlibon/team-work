@@ -9,9 +9,16 @@
   row-gap: 80px;
 }
 
-@media screen and (max-width: 1058px) {
+@media screen and (max-width: 1014px) {
   .quotes__items {
-    grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+    grid-template-columns: repeat(/*auto-fit*/2, minmax(240px, 1fr));
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .quotes__items {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     row-gap: 40px;
   }
 }

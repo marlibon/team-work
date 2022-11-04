@@ -1,6 +1,5 @@
 .place {
     display: grid;
-    /*grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);*/
     grid-template-areas:
         'place__image place__title'
         'place__image place__paragraphs';
@@ -22,9 +21,9 @@
   grid-template-rows: auto;
   max-width: 100%;
   grid-template-areas:
-  'place__title'
-  'place__paragraphs'
-  'place__image';
+      'place__image'
+      'place__title'
+      'place__paragraphs';  
   margin: 0 0 50px 0;
   }
 }

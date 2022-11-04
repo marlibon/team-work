@@ -5,7 +5,7 @@
   grid-template-columns: 53.1% auto;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 580px) {
   .intro {
     grid-template-columns: 1fr;
     min-height: auto;
