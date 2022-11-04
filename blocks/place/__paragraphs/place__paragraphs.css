@@ -7,4 +7,19 @@
      justify-self: start;
 
 }
-
+@media screen and (max-width: 840px) {
+  .place__paragraphs {
+    margin: 15px 0 15px 0;
+    max-width: 70%;
+     }
+}
+@media screen and (max-width: 610px) {
+  .place__paragraphs {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 410px) {
+  .place__paragraphs {
+    max-width: 100%;
+  }
+}

@@ -13,3 +13,9 @@
 .place__paragraph:nth-of-type(3n) {
     margin-bottom: 0px;
 }
+@media screen and (max-width: 840px) {
+  .place__paragraph {
+    margin: 0;
+    max-width: 100%;
+    }
+}

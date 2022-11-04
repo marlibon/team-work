@@ -25,11 +25,8 @@
    }
 }
 
-/*@media screen and (max-width: 686px) {
-   .place__title {
-       font-size: 32px;
-       line-height: 35px;
-       max-width: 288px;
-       margin-left: 16px;
-   }
-}*/
+@media screen and (max-width: 840px) {
+  .place__title {
+    margin: 15px 0 15px 0;
+     }
+}

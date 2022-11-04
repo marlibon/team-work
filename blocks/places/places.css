@@ -5,3 +5,21 @@
     flex-direction: column;
     margin: 52px 0 0 0;
 }
+@media screen and (max-width: 840px) {
+  .places {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .places {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .places {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
