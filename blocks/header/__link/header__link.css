@@ -8,12 +8,18 @@
   text-decoration: none;
   color: #000;
   letter-spacing: 0.6px;
+  transition: 0.5s;
+}
+.header__link:hover {
+  transition: 0.5s;
+  opacity: .7;
 }
 @media screen and (max-width: 500px) {
   .header__link {
     margin: 0;
-    font-weight: 700;
     font-size: 16px;
     line-height: 32px;
+    margin-left: 25px;
+    border-bottom: 1px dotted #000;
     }
 }
