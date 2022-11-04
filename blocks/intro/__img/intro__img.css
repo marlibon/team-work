@@ -4,6 +4,7 @@
     object-fit: cover;
     justify-self: center;
     align-self: center;
+    animation: animation-name 6s ease infinite;
 }
 
 @media screen and (max-width: 870px) {
@@ -16,4 +17,15 @@
   .intro__img {
     width: 100%;
   }
+}
+
+@keyframes animation-name {
+  0% {
+    filter: none;  }
+  50% {
+    filter: contrast(150%) brightness(90%);
+	-webkit-filter: contrast(150%) brightness(90%);
+  }
+  100% {
+    filter: none;   }
 }
