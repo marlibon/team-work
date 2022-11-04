@@ -2,9 +2,3 @@
   margin: 0;
 }
 
-@media screen and (max-width: 436px) {
-  .header__link_complain {
-    align-self: flex-end;
-    margin-bottom: 10px;    
-  }
-}

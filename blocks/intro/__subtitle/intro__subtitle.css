@@ -1,14 +1,13 @@
 .intro__subtitle {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #fecda7;
-    text-transform: uppercase;
-    max-width: 140px;
-    padding: 0;
-    margin: 0 0 28px 4px;
-    letter-spacing: 0.7px;
-
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fecda7;
+  text-transform: uppercase;
+  max-width: 140px;
+  padding: 0;
+  margin: 0 0 28px 0px;
+  letter-spacing: 0.7px;
 }
 @media screen and (max-width: 870px) {
   .intro__subtitle {

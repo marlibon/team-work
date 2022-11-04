@@ -7,6 +7,7 @@
     grid-template-columns: repeat(2, minmax(320px, 1fr));
     grid-template-rows: repeat(2, 50%);
     margin: 0;
+    padding-bottom: 1px;
 }
 
 .place:nth-of-type(2n) {
@@ -23,7 +24,7 @@
   grid-template-areas:
       'place__image'
       'place__title'
-      'place__paragraphs';  
+      'place__paragraphs';
   margin: 0 0 50px 0;
   }
 }

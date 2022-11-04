@@ -1,8 +1,8 @@
 .intro {
   display: grid;
   max-width: 100%;
-  min-height: 520px;
-  grid-template-columns: 53.1% auto;
+  min-height: 518px;
+  grid-template-columns: 53.6% auto;
 }
 
 @media screen and (max-width: 580px) {
