@@ -4,3 +4,11 @@
   display: flex;
   list-style-type: none;
 }
+
+@media screen and (max-width: 436px) {
+  .header__links {
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 15px;    
+  }
+}
