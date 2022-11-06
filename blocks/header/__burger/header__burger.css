@@ -21,7 +21,7 @@
       animation: show .5s ease;
   }
   #header__burger:checked +[for=header__burger]::before{
-      content: '⮾';
+      content: 'X';
   }
 }
 @keyframes show {
