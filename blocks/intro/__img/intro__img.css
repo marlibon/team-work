@@ -23,8 +23,8 @@
   0% {
     filter: none;  }
   50% {
-    filter: contrast(150%) brightness(90%);
-	-webkit-filter: contrast(150%) brightness(90%);
+    filter: contrast(170%) brightness(80%);
+	-webkit-filter: contrast(170%) brightness(80%);
   }
   100% {
     filter: none;   }

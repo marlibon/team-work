@@ -40,3 +40,18 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
+
+@import url('../blocks/modal/modal.css');
+@import url('../blocks/modal/__title/modal__title.css');
+@import url('../blocks/modal/__overlay/modal__overlay.css');
+@import url('../blocks/modal//__popup/modal__popup.css');
+@import url('../blocks/modal/__close/modal__close.css');
+
+@import url('../blocks/complain/complain.css');
+@import url('../blocks/complain/__label/complain__label.css');
+@import url('../blocks/complain/__textarea/complain__textarea.css');
+@import url('../blocks/complain/__radio-items/complain__radio-items.css');
+@import url('../blocks/complain/__button/complain__button.css');
+@import url('../blocks/complain/__contacts/complain__contacts.css');
+
+

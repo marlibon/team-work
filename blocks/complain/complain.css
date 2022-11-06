@@ -1,0 +1,16 @@
+.complain {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: minmax(150px, 30%) 70%;
+  row-gap: 20px;
+}
+@media screen and (max-width: 800px) {
+  .complain {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 420px) {
+  .complain {
+    row-gap: 10px;
+  }
+}

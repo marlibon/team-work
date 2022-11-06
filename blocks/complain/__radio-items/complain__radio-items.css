@@ -1,0 +1,10 @@
+.complain__radio-items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, max-content));
+  gap: 15px;
+}
+@media screen and (max-width: 850px) {
+  .complain__radio-items {
+    grid-template-columns: 1fr;
+  }
+}

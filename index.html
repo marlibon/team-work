@@ -23,7 +23,7 @@
         <li><a href="#" class="header__link" title="Тому, кто умеет ждать, всегда достается самое лучшее">Ожидания</a></li>
         <li><a href="#" class="header__link" title="Вы счастливый человек, если ваши мечты, ожидания и реальность совпали">Реальность</a></li>
       </ul>
-      <a href="#" class="header__link header__link_complain" title="Напишите, что работает не так, как должно">Пожаловаться</a>
+      <a href="#complain" class="header__link header__link_complain" title="Напишите, что работает не так, как должно">Пожаловаться</a>
     </nav>
   </header>
   <main class="main">
@@ -115,5 +115,41 @@
     <p class="footer__copyright">&copy; 2022</p>
     <p class="footer__copyright">I.Demina, M.Zagriev</p>
   </footer>
+  <!-- ниже код для модального окна -->
+  <section class="modal">
+    <a href="#x" class="modal__overlay" id="complain"></a>
+    <div class="modal__popup">
+      <h4 class="modal__title">Форма обратной связи</h4>
+      <form class="complain">
+        <label for="text" class="complain__label">Что можно сделать лучше?</label>
+        <textarea class="complain__textarea" name="text" id="text" placeholder="например: можно было использовать JS для бургерного меню или модального окна (сейчас все на HTML и CSS)"></textarea>
+        <span class="complain__label">Прислать вам комментарий?</span>
+        <div class="complain__radio-items">
+          <div class="complain__radio-item">
+            <input type="radio" id="radio-1" name="raduo-group-1" checked>
+            <label for="radio-1"> Нет, не надо</label>
+          </div>
+          <div class="complain__radio-item">
+            <input type="radio" id="radio-2" name="raduo-group-1">
+            <label for="radio-2"> В телеграм</label>
+            <div class="complain__contacts">
+              <label for="telegram"></label>
+              <input type="tel" id="telegram" name="telegram" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+79177899871">
+            </div>
+          </div>
+          <div class="complain__radio-item">
+            <input type="radio" id="radio-3" name="raduo-group-1">
+            <label for="radio-3"> Пришлите на email</label>
+            <div class="complain__contacts">
+              <label for="email"></label>
+              <input type="email" id="email" name="email" placeholder="hello@example.com">
+            </div>
+          </div>
+        </div>
+        <input type="submit" class="complain__button">
+      </form>
+      <a class="modal__close" title="Закрыть" href="#close"></a>
+    </div>
+  </section>
 </body>
 </html>

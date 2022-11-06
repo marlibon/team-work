@@ -12,6 +12,6 @@
     width: 80%;
     user-select: none;
     flex-direction: column;
-    z-index: 999;
+    z-index: 9;
   }
 }

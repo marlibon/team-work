@@ -1,0 +1,16 @@
+.complain__contacts {
+  display: none;
+  padding: 15px 0 15px;
+}
+
+/* здесь мы хотим, чтобы при выборе радиокнопки №2 нам показалась доп форма для указания телефона */
+[id="radio-2"]:checked ~ .complain__contacts {
+  display: block;
+}
+/* здесь мы хотим, чтобы при выборе радиокнопки №3 нам показалась доп форма для указания емейл */
+
+[id="radio-3"]:checked ~ .complain__contacts {
+display: block;
+}
+
+
